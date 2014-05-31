@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ShelterHelper" Class="AwesomePetsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=WIN-0N0BA1V47QI\SQLEXPRESS;Initial Catalog=ShelterHelper;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ShelterHelperConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AnimalInventory" Member="AnimalInventories">
+    <Type Name="AnimalInventory">
+      <Column Name="AnimalID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Animal Type]" Member="Animal_Type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Intake Date]" Member="Intake_Date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Breed" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Estimated Age]" Member="Estimated_Age" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Kennel Number]" Member="Kennel_Number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Intake Type]" Member="Intake_Type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Intake Subtype]" Member="Intake_Subtype" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Kennel Status]" Member="Kennel_Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Zip Where Found]" Member="Zip_Where_Found" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Primary Color]" Member="Primary_Color" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(5000)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
